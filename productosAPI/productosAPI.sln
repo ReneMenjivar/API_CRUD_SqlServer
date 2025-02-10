@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35514.174 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "productosAPI", "productosAPI.csproj", "{126B1EDC-A513-4F18-B07B-86AF51A35DD2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{7D5142CA-C283-4617-A810-D1EF5C8E3D4A}"
+	ProjectSection(SolutionItems) = preProject
+		productos.cs = productos.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{AFE9EF2F-DAC8-4EAA-B7A3-3B80033F0A72}"
+	ProjectSection(SolutionItems) = preProject
+		AplicacionDBContext.cs = AplicacionDBContext.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repositories", "Repositories", "{CE80DC2F-45F8-4628-857C-85547F11ABB5}"
+	ProjectSection(SolutionItems) = preProject
+		IProductoRepository.cs = IProductoRepository.cs
+		ProductoRepository.cs = ProductoRepository.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{126B1EDC-A513-4F18-B07B-86AF51A35DD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{126B1EDC-A513-4F18-B07B-86AF51A35DD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{126B1EDC-A513-4F18-B07B-86AF51A35DD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{126B1EDC-A513-4F18-B07B-86AF51A35DD2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
