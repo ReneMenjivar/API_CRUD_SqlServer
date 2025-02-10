@@ -30,7 +30,7 @@ namespace productosAPI.Repositories
             return producto;
         }
 
-        public async Task<Producto> UpdateProducto(int id, Producto producto)
+        public async Task<productos> UpdateProducto(int id, productos producto)
         {
             var existing = await _context.Productos.FindAsync(id);
             if (existing == null) return null;
