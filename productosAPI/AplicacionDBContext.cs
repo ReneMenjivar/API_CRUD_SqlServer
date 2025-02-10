@@ -11,4 +11,5 @@ namespace productosAPI.Data
 		public AplicacionDBContext(DbContextOptions<AplicacionDBContext> options) : base (options) { }
 		public DbSet<productos> Productos { get; set; }
 	}
+
 }
