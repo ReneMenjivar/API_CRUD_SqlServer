@@ -25,11 +25,10 @@ Para ejecutar el proyecto, necesitas:
    Add-Migration InitialCreate
    Update-Database
    ```
-6. Ejecutar la API presionando `Ctrl + F5`.
 
 ## Estructura del Proyecto
 
-Una API en C# con .NET 8 sigue una estructura organizada en carpetas para facilitar la separación de responsabilidades:
+Una API sigue una estructura organizada en carpetas para facilitar la separación de responsabilidades:
 
 - **Controllers/** → Contiene los controladores, que manejan las solicitudes HTTP y responden con datos.
 - **Models/** → Define las clases que representan las entidades de la base de datos.
