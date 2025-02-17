@@ -1,11 +1,9 @@
 # API de Gestión de Productos
 
-Este es un proyecto de API REST en C# con .NET 8 y SQL Server para gestionar productos.
-
 ## Requisitos
 
 Para ejecutar el proyecto, necesitas:
-- Visual Studio 2022 o superior en Windows
+- Visual Studio 2022 
 - .NET 8 o superior
 - SQL Server
 
