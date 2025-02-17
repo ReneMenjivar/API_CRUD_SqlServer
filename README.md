@@ -2,7 +2,7 @@
 
 ## Requisitos
 
-Para ejecutar el proyecto, necesitas:
+Para ejecutar el proyecto, se necesita:
 - Visual Studio 2022 
 - .NET 8 o superior
 - SQL Server
